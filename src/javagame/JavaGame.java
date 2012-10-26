@@ -4,6 +4,7 @@
  */
 package javagame;
 
+import java.awt.GraphicsEnvironment;
 import javax.swing.JFrame;
 
 /**
@@ -23,9 +24,10 @@ public class JavaGame extends JFrame{
      */
     public JavaGame(){
           
-        setTitle("Hello World!");
+        setTitle("JavaGame");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(WIDTH, HEIGHT);
+        setLocationRelativeTo(null);
         setVisible(true);
     }
     /**
