@@ -29,6 +29,8 @@ public class JavaGame extends JFrame{
         setSize(WIDTH, HEIGHT);
         setLocationRelativeTo(null);
         setVisible(true);
+        
+        add(new View("HelloWorld", 300, 200) );
     }
     /**
      * Main Method which is the start point for you Programm
