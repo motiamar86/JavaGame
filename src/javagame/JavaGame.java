@@ -43,6 +43,6 @@ public class JavaGame {
          * PrintStream.write(int) method.
          */                
         System.out.println("Hello World!");
-       
+               
     }
 }
