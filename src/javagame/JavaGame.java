@@ -4,6 +4,8 @@
  */
 package javagame;
 
+import javax.swing.JFrame;
+
 /**
  * Main Class to develop our first Game
  * First approch only prints a Hello World! 
@@ -11,7 +13,7 @@ package javagame;
  * @author reisma
  * @version 0.1, 25.10.2012
  */
-public class JavaGame{
+public class JavaGame extends JFrame{
 
     /**
      * Constructor of the JavaGame Class
@@ -19,7 +21,7 @@ public class JavaGame{
      */
     public JavaGame(){
           
-        System.out.println("Hello World!");
+        setTitle("Hello World!");        
     }
     /**
      * Main Method which is the start point for you Programm
