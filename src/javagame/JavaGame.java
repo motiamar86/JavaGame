@@ -15,13 +15,18 @@ import javax.swing.JFrame;
  */
 public class JavaGame extends JFrame{
 
+    private final int WIDTH = 800;
+    private final int HEIGHT = 600;
     /**
      * Constructor of the JavaGame Class
      * It simple gives a Hello World output on the console
      */
     public JavaGame(){
           
-        setTitle("Hello World!");        
+        setTitle("Hello World!");
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setSize(WIDTH, HEIGHT);
+        setVisible(true);
     }
     /**
      * Main Method which is the start point for you Programm
