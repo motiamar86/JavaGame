@@ -4,7 +4,6 @@
  */
 package javagame;
 
-import java.awt.GraphicsEnvironment;
 import javax.swing.JFrame;
 
 /**
